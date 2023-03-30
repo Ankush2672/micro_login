@@ -109,7 +109,7 @@ module.exports = {
 
             let check_user = await users.findOne({
                 where: {
-                    user_id : req.payload.id
+                    id : req.payload.id
                 }
             });
 
