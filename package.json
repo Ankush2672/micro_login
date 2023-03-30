@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@hapi/cookie": "^12.0.1",
+    "@hapi/hapi": "^21.3.0",
+    "@hapi/joi": "^17.1.1",
+    "glob": "^8.1.0",
+    "hapi-sequelizejs": "^4.6.1",
+    "joi": "^17.7.1",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.1.2",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "sequelize": "^6.28.0"
+  },
+  "scripts": {
+    "test": "mocha './zTests/tests.js'",
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.1"
+  }
+}
